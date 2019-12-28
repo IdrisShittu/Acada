@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  color: white !important;
+}
+
+.btn{
+  color: white !important;
+}
+
+.img-logo{
+  height: 30px;
+  width: 30px;
+}
+
+.banner_logo{
+  height: 150px;
+  width: 150px;
+}
+
+.logo_text{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.bg-light{
+  background-color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link{
+  color: white;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.navbar-light ul li a{
+  color: white;
+}
+
+.navbar-light ul li a:hover{
+  background: chocolate;
+  border-radius: 10px;
+}
+
+.navbar-light .navbar-toggler{
+  background-color: white !important;
+}
+
+#banner{
+  margin-top: 50px;
+  background: #333 url(../images/banner.png) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#banner .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.container .banner_details{ 
+ text-align: center;
+}
+
+.container .banner_details h1{
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.container .banner_details p{
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.967;
+}
+
+.btn{
+  color: white;
+  background-color: chocolate;
+  border-radius: 20px;
+  padding: 5px;
+  width: 200px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.btn:hover{
+  color: white;
+}
+
+#company .container{
+  margin-top: 70px;
+}
+
+.text-heading{
+  color: chocolate;
+}
+
+#company .container h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#company .container p{
+  font-size: 16px;
+  line-height: 1.698;
+}
+#company .container h1, #company .container p{
+  text-align: center;
+}
+
+#company .who_we_are{
+ text-align: center;
+}
+
+#company .who_we_are .btn{
+  width: 150px;
+  font-size: 16px;
+}
+
+#software{
+   background: url(/images/software_section.png) no-repeat center center/cover;
+   margin-bottom: 50px;
+}
+
+#software .h_who_we_are{
+  text-align: center;
+ }
+
+ #software .container{
+   margin-top: 70px;
+ }
+
+ #software .h_who_we_are{
+  font-weight: bold;
+  font-size: 40px;
+  padding: 15px;
+  color: #fff;
+}
+
+.container .fas{
+  margin: 10px 0px;
+  font-size: 50px;
+  color: chocolate;
+}
+
+.exam_generation_software h2{
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+.exam_generation_software p {
+  color: #fff;
+}
+
+#software .container button{
+  margin-bottom: 5px;
+}
+
+.col-md-4{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+ 
