@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body{
+  background-color: #FAE6D1;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -10,6 +11,13 @@ a{
 
 .btn{
   color: white !important;
+}
+
+.bg-black{
+  background: black;
+}
+.bg-chocolate{
+  background: chocolate;
 }
 
 .img-logo{
@@ -170,4 +178,62 @@ a{
   margin-bottom: 50px;
 }
 
- 
+#contact .container-fluid{
+  display: flex;
+}
+
+/* #contact .map, #contact .contact_form{
+  flex: 1;
+} */
+
+#contact .contact_form .form_group , #contact .contact_form p, #contact .contact_form h1, #contact .bg-dark {
+  margin: 20px ;
+}
+
+#contact .contact_form h1{
+  font-size: 40px;
+}
+
+#contact .contact_form p{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#contact .contact_form label{
+  display: block;
+  font-size: 16px;
+}
+
+#contact .contact_form input,
+#contact .contact_form textarea{
+  width: 100%;
+  padding: 10px;
+}
+
+.card img {
+  height: 100%;
+}
+
+footer{
+  background-color: black;
+}
+
+#footer-content .container{
+  margin-top: 100px;
+}
+.footer-item h1, .footer-item p{
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer-item h1{
+  font-size: 20px;
+}
+
+.footer-item p{
+  font-size: 10px;
+}
+
+.footer-item{
+  padding: 20px;
+}
