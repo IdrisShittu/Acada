@@ -182,32 +182,42 @@ a{
   display: flex;
 }
 
-/* #contact .map, #contact .contact_form{
-  flex: 1;
-} */
-
 #contact .contact_form .form_group , #contact .contact_form p, #contact .contact_form h1, #contact .bg-dark {
   margin: 20px ;
 }
 
 #contact .contact_form h1{
   font-size: 40px;
+  color: white;
 }
 
 #contact .contact_form p{
   font-size: 18px;
   font-weight: bold;
+  color: white;
 }
 
 #contact .contact_form label{
   display: block;
   font-size: 16px;
+  color: white;
 }
 
 #contact .contact_form input,
 #contact .contact_form textarea{
   width: 100%;
   padding: 10px;
+}
+
+#contact form .btn{
+  color: white;
+  background-color: black;
+  border-radius: 0;
+  width: 95%;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 16px;
 }
 
 .card img {
@@ -237,3 +247,28 @@ footer{
 .footer-item{
   padding: 20px;
 }
+
+@media screen and (max-width:500px){
+ .banner_buttons .btn{
+  width: 120px;
+ }
+
+ #contact .container-fluid{
+   flex-direction: column;
+ }
+
+ #contact .container-fluid .card{
+   display: none;
+ }
+
+ #contact .container-fluid{
+   margin-top: 110px;
+ }
+
+ #contact form .btn{
+  width: 88%;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+}  
