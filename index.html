@@ -36,7 +36,10 @@
               <a class="nav-link"href="#software">Software</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"href="#contact">Contact</a>
+              <a class="nav-link"href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="index.html#contact">Request Demo</a>
             </li>
           </ul><!-- navbar-nav -->
      </div><!-- collapse collapse-navbar -->
@@ -97,7 +100,7 @@
     <div class="contact_form bg-chocolate col-md-6">
       <h1 class="f_heading">Get Started! Sign up for a Demo</h1>
       <p>Fill the form below to request a Demo</p>
-      <form>
+      <form action="https://formspree.io/mrgejlwn" method="POST">
         <div class="form_group">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" placeholder="Enter Name">
@@ -112,11 +115,11 @@
         </div>
         <div class="form_group">
           <label for="schoolname">School Name</label>
-          <input type="text" id="schoolname" placeholder="Enter School Name"></input>
+          <input type="text" id="schoolname" name="schoolname" placeholder="Enter School Name"></input>
         </div>
         <div class="form_group">
           <label for="role">Role</label>
-          <input type="text" id="role" placeholder="Enter Role"></input>
+          <input type="text" id="role" name="role" placeholder="Enter Role"></input>
         </div>
         <button type="submit" class="btn">Sign Up for Demo</button>
       </form>

@@ -12,6 +12,24 @@
   
   <title>ACADA NG| Software Learning Platform</title>
  <link rel="icon" type="image/png" href="images/logo.png" />
+
+
+
+<!-- Start of Async Callbell Code -->
+<script>
+  window.callbellSettings = {
+    token: "8h82GqSiR5JEHeEDfNWb3msM"
+  };
+</script>
+<script>
+  (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+</script>
+<!-- End of Async Callbell Code -->
+
+
+
+
+
 </head>
 <body id="home">
 <header>
@@ -27,77 +45,43 @@
      <div class="collapse navbar-collapse " id="navbar-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
+              <a class="nav-link active" href="index.html#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#company">Company</a>
+              <a class="nav-link" href="index.html#company">Company</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"href="#software">Software</a>
+              <a class="nav-link"href="index.html#software">Software</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"href="#contact">Contact</a>
+              <a class="nav-link"href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="index.html#contact">Request Demo</a>
             </li>
           </ul><!-- navbar-nav -->
      </div><!-- collapse collapse-navbar -->
         </nav><!-- navbar navbar-light -->
- <section id="banner">
-    <div class="container">
-      <div class="banner_details">
-        <img class="banner_logo"  src="images/banner-image.png" alt="image">
-        <h1>The Robust, Simple, and Efficient School Management Software.</h1>
-        <p>Engineered to place schools ahead and relevant in the 21st century</p> 
-      </div><!-- banner_details -->
-      <div class="banner_buttons">
-        <button onclick="window.location.href = '#contact';" type="button" class="btn btn-lg">Get Started</button>
-        <button onclick="window.location.href = 'contact.html';" type="submit" class="btn btn-lg">Contact Us</button>
-      </div><!-- banner_buttons --> 
-    </div><!-- container -->
- </section><!-- section banner --> 
+- section banner --> 
 </header>
 
 <section id="company">
   <div class="container">
-      <h1 class="h_who_we_are"><span class="text-heading">WHAT IS</span> ACADA</h1>
+      <h1 class="h_who_we_are"><span class="text-heading">CONTACT</span> US</h1>
     <div class="who_we_are">
-      <p>ACADA is a robust, simple, efficient SMS designed with cutting edge technology and 21st century educational pedagogy to help schools save cost, stay relevant and ahead. Its built by a world class team to meet all your school needs.</p>
-      <button type="button" class="btn">Read More</button>
+      <p>We love to hear from you</p>
     </div><!-- who_we_are -->
   </div><!-- container -->
 </section><!-- section company -->
 
-<section id="software"> 
-  <div class="container">
-      <h1 class="h_who_we_are"><span class="text-heading">WHAT</span> WE DO</h1>
-      <div class="row">
-        <div class="exam_generation_software col-md-4">
-          <i class="fas fa-laptop-code"></i>
-          <h2>School Management Software</h2>
-          <p>ACADA School management software designed to automate school processes and keep schools ahead.</p>
-       <!--   <button type="button" class="btn">Read More</button>-->
-        </div><!-- exam_generation_software -->
-        <div class="exam_generation_software col-md-4">
-          <i class="fas fa-keyboard"></i>
-          <h2>CBT Software</h2>
-          <p>A Computer based test platform, developed with inbuilt Question bank to help your school conduct assessment more efficently, saving cost and time.</p>
-        <!--  <button type="button" class="btn">Read More</button> -->
-        </div><!-- exam_generation_software -->
-        <div class="exam_generation_software col-md-4">
-          <i class="fas fa-laptop"></i>
-          <h2>CBT Simulator</h2>
-          <p>CBT Simulator designed to help students practice and ace the standard exams such as JAMB, WAEC, NECO.</p>
-        <!--  <button type="button" class="btn">Read More</button>-->
-        </div><!-- exam_generation_software -->
-      </div><!-- row -->
-  </div><!-- software container --> 
-</section><!-- section software -->
+
 
 <section id="contact">
   <div class="container-fluid">
     <div class="contact_form bg-chocolate col-md-6">
-      <h1 class="f_heading">Get Started! Sign up for a Demo</h1>
-      <p>Fill the form below to request a Demo</p>
-      <form>
+      <h1 class="f_heading">Contact Us</h1>
+     <p>Please use the form below to contact us</p>
+      <form action="https://formspree.io/mrgejlwn" method="POST">
         <div class="form_group">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" placeholder="Enter Name">
@@ -111,12 +95,8 @@
           <input type="text" name="Phone" id="Phone" placeholder="Enter Phone Number">
         </div>
         <div class="form_group">
-          <label for="schoolname">School Name</label>
-          <input type="text" id="schoolname" placeholder="Enter School Name"></input>
-        </div>
-        <div class="form_group">
-          <label for="role">Role</label>
-          <input type="text" id="role" placeholder="Enter Role"></input>
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter Message"></textarea>
         </div>
         <button type="submit" class="btn">Send</button>
       </form>
